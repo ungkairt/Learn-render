@@ -368,3 +368,34 @@ Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-04-19 
 Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-04-19 16:23:01 +0700
 Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-04-19 16:23:01 +0700
 Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-04-19 16:23:01 +0700
+Writing application-8b441ae0.css
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/index-ee64e1f1.js
+Writing controllers/hello_controller-708796bd.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing turbo.min-02fd5b81.js.map
+Writing turbo-765c2e69.js
+Writing turbo.min-1262d735.js
+Writing actiontext-a4ee937e.js
+Writing trix-4b540cb5.js
+Writing actiontext.esm-f1c04d34.js
+Writing trix-65afdb1d.css
+Writing actioncable-ac25813f.js
+Writing actioncable.esm-e0ec9819.js
+Writing action_cable-5212cfee.js
+Writing activestorage-32201f68.js
+Writing activestorage.esm-f2909226.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5484517653260825235) /*application='BootcampIce'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BootcampIce'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (5.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='BootcampIce'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Create (3.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2025-04-19 09:54:25.260816', '2025-04-19 09:54:25.260819') RETURNING "key" /*application='BootcampIce'*/[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(5484517653260825235) /*application='BootcampIce'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BootcampIce'*/[0m
