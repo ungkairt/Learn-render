@@ -27,6 +27,5 @@ test:
   database: bootcamp
 
 production:
-  primary: &primary_production
     <<: *default
     
