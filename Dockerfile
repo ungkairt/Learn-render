@@ -8,7 +8,7 @@
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 
 # Make sure RUBY_VERSION matches the Ruby version in .ruby-version
-ARG RUBY_VERSION=3.3.3
+ARG RUBY_VERSION=3.1.2
 FROM docker.io/library/ruby:$RUBY_VERSION-slim AS base
 
 # Rails app lives here
@@ -69,4 +69,4 @@ ENTRYPOINT ["/rails/bin/docker-entrypoint"]
 
 # Start server via Thruster by default, this can be overwritten at runtime
 EXPOSE 80
-CMD ["./bin/thrust", "./bin/rails", "server"]
+CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0", "-p", "3000"]
